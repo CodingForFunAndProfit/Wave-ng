@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Wave",
+  "version": "1.0.0",
+  "description": "Surf it like a pro",
+  "homepage_url": "https://github.com/CodingForFunAndProfit/Wave",
+  "icons": {
+    "48": "assets/icons/bookmark-it.png",
+    "96": "assets/icons/bookmark-it@2x.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "chrome_settings_overrides": {
+    "homepage": "index.html"
+  },
+
+  "permissions": ["bookmarks", "tabs", "storage"],
+
+  "browser_action": {
+    "default_icon": "assets/icons/star-empty-38.png",
+    "default_title": "Wave"
+  }
+}
