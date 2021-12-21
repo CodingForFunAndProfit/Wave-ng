@@ -1,6 +1,13 @@
-<form class="example-form">
-  <mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>search</mat-label>
-    <input matInput value="" />
-  </mat-form-field>
-</form>
+<button
+  mat-icon-button
+  (click)="toggleDarkTheme()"
+  class="theme-toggle"
+  aria-label="Toggle Dark Theme"
+>
+  <mat-icon>{{ isDark ? "dark_mode" : "light_mode" }}</mat-icon>
+</button>
+<app-searchbox></app-searchbox>
+<button mat-raised-button color="primary">Raised</button>
+<button mat-raised-button color="accent">Accent</button>
+<button mat-raised-button color="warn">Warn</button>
+<app-favtabs></app-favtabs>

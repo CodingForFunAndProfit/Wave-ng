@@ -1,0 +1,11 @@
+<form class="search-form">
+  <mat-form-field class="full-width" appearance="fill">
+    <mat-label>search</mat-label>
+    <input
+      matInput
+      value=""
+      [formControl]="searchTextControl"
+      (keyup.enter)="googlesearch()"
+    />
+  </mat-form-field>
+</form>

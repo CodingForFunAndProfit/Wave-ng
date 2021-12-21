@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:webext": "web-ext build --source-dir=dist/wave-ng --artifacts-dir=.",
-    "build:prod": "ng build --aot --output-hashing=none",
+    "build:prod": "ng build --aot --output-hashing none",
     "build:pkg": "npm run build:prod && npm run build:webext"
   },
   "private": true,

@@ -7,6 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [],
@@ -18,6 +19,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatInputModule,
     MatRadioModule,
     MatTabsModule,
+    MatIconModule,
   ],
 })
 export class MaterialModule {}
